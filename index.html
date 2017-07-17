@@ -1,25 +1,97 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>All About Me</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-
-
-  <body>
-  <header>
-    <h1>Jasmine</h1>
-
-  </header>
-
-  <div>
-    <img src="images/jasmine1.jpg" alt="Jasmine's picture">
-  </div>
-
-<footer>
-
-</footer>
-
-  </body>
+    <title>All About Me</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!--   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <script src="https://use.fontawesome.com/2134a21acc.js"></script>
   </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>All about me!</h1>
+      </div>
+    </header>
+    <nav>
+      <div class="container">
+        <ul>
+          <li><a>link 1</a></li>
+          <li><a>link 2</a></li>
+          <li><a>link 3</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <div class="container">
+        <img class="image-circle" src="images/jasmine1.jpg" alt="Jasmine's picture">
+      </div>
+    </section>
+    <!-- bio goes here -->
+    <section>
+       <div class="intro">
+        <p>Developer, Fashion, Sewing and Embroidery Fiend. Creator and Crafter at heart.</p>
+      </div>
+    </section>
+    <section>
+       <div class="container">
+        <p>My name is Jasmine and I love to create things. I love colors, if it were up to me colors would be everywhere. If you're wondering; Why should colors be everywhere? Well that's easy. How do you feel when you see a rainbow bursting through the clouds after the rain has stopped? Happy, right? Colors can change anything dull and dreary and give it life. Colors brighten the room, change moods and the atmosphere. Without the colors, the world would be a sad place. I like to create things with bursts of colors.</p>
+        <p>I have a broad range of skills and experience; from sewing, fashion, accounting to fixing phones and tablets. I wanted to transition into software development to hopefully change the world for the better. Merging Tech with Fashion with would be totally cool! The best part is that, I would be creating something in some form or way.</p>
+      </div>
+    </section>
+    <!-- resources of sites you like -->
+    <section>
+      <div class="container">
+        <p> My favorite resources are <a href="https://teamtreehouse.com/">Treehouse</a>, <a href="https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a>, and occasionally <a href="https://www.w3schools.com/html/">W3Schools</a>. <a href="https://stackoverflow.com/">Stack Overflow</a> is also a great community resource for all developers. </p>
+      </div>
+    </section>
+    <!-- project place holders -->
+    <section> </section>
+    <section> </section>
+    <!-- blog posts! -->
+    <section>
+      <article>
+        <p></p>
+      </article>
+    </section>
+    <section>
+      <article>
+        <p></p>
+      </article>
+    </section>
+    <footer>
+      <div class="container">
+      <p>Home Address: Charlotte Pike, Nashville, TN 37209</p>
+        <p>Phone Number: 615-603-6650</p>
+        <i class="fa fa-github-alt" aria-hidden="true"></i><p><a href="http:github.com/jasmineq">GitHub: jasmineq</a></p>
+        <i class="fa fa-twitter" aria-hidden="true"></i><p><a href="http://twitter.com/jasminequach/">Twitter: jasminequach</a></p>
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i><p><a href="http://linkedin.com/in/jasminequach/">LinkedIn: jasminequach</a></p>
+        <p>© 2017 Jasmine Quach</p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
 </html>
+
+
+<!-- color scheme
+baby blue #4FC3F7
+ dark gray  #9E9E9E
+light gray #E0E0E0
+ -->
+
+
+<!-- Title - make it meaningful.
+Header element <h1> - This is the main headline; include your name and what this page is.
+Photo
+Section element containing your bio
+Section element with links to resources or sites you like
+Section element with two sections for future projects (placeholders)
+Section area containing your blog posts. Each of these should use article element.
+Footer element with email and professional social media links; Github, twitter, LinkedIn, etc.
+Semantic mark-up for all major elements.
+Validate your html page with W3 validator: https://validator.w3.org/
+Appropriate folder structure: images, css.
+Color scheme - choose primary, secondary, and tertiary colors in addition to black and white. Use these colors consistently in your stylesheet.
+The page will have a linked JavaScript file for the blog posts section. Create an array to hold your posts (at least 2 posts). Each item in the array must be an object that contains at a minimum the following information: Title, Copy, Date. Use JavaScript to add each post to the DOM.
+ -->
