@@ -24,15 +24,18 @@ nav {
 }
 
 ul {
-  display: inline;
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 nav li {
-  display: inline;
   margin-right: 40px;
   color: #fff;
+}
+
+li {
+  padding: 20px;
 }
 
 li a:hover {
@@ -40,6 +43,11 @@ li a:hover {
   border-bottom: 3px solid white;
   padding-bottom: 13px;
   text-decoration: underline;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 0;
 }
 
 h1 {
@@ -63,11 +71,22 @@ h2, h3 {
   text: 20%;
 }
 
+.bposts {
+  margin-bottom: 20px;
+}
+
 footer {
   background-color: #E0E0E0;
   clear: both;
   color: #9E9E9E;
   text-align: center;
+}
+
+.footer-li {
+  background-color: #E0E0E0;
+  border-bottom: 3px solid white;
+  padding-bottom: 13px;
+  text-decoration: underline;
 }
 
 .image-circle {
